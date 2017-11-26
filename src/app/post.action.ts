@@ -24,11 +24,7 @@ export class EditText implements Action {
         readonly type = RESET;
     }
 
-    export type All 
-    = Upvote
-    | Downvote
-    | Reset
-    | EditText; 
+    export type All = Upvote | Downvote | Reset | EditText; 
       
       
  
